@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(250, 242, 242);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #page-wrapper {
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aquamarine
+  }
+  
+  #logo {width: 78px; 
+  height: 78px; 
+  display: flex;  
+  justify-content: center; 
+  margin-left: 5PX;
+  background-color: transparent;
+  }
+  
+  h1 {
+  color: blue;
+  }
+  
+  #nav-bar{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    background-color: transparent;
+    }
+  
+  /* nav ul */
+  ul { 
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  /* nav li */
+  li {
+    float: left;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    color: blue;
+    list-style-type: none;
+  }
+  
+  /* nav li a */
+  li  a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: blue;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #main {
+    margin-top: 90px;
+  }
+  
+  hr {
+  width: 85%;
+  height: 4px;
+  border-width: 0;
+  color: blue;
+  background-color:blue;
+  }
+  
+  #video-box {
+  display: flex;
+  margin-left: 10px;
+  padding-left: 10px;
+  }
+  
+  .grid {
+    display: flex
+  }
+  
+  .grid-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 150px;
+    height: 175px;
+    margin: 20px;
+    border: 2px solid blue;
+    border-radius: 3px;
+    max-width: fit-content;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border: 3px solid green;
+  }
+  
+  .item-header {
+    background-color: rgb(26, 32, 32);
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    margin-top: 0;
+    border-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .item > h2 {
+    text-align: center;
+  }
+  .item-desc {
+    text-align: center;
+  }
+  
+  table {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  td {
+  text-align: center;
+  }
+  
+  
+  /* for snartphones are 450 */
+  @media (max-width: 450px) {
+      body {
+          background-color: coral;
+      }
+  }
+  
+  /* for tablets */
+  @media (max-width: 800px) and (min-width: 451px) {
+      body {
+          background-color: yellow;
+      }
+  }
+  
